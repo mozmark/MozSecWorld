@@ -4,7 +4,7 @@ import urllib # to refresh recaptcha
 from msw.models import Page, RichText, RichTextForm, SafeUrl
 from msw import forms
 
-from commons.urlresolvers import reverse
+from django.core.urlresolvers import reverse
 
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import RequestContext
